@@ -1,0 +1,45 @@
+{
+  "name": "ShatteredDimensions",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "ShatteredDimensions": {
+        "$className": "Folder",
+        "Content": {
+          "$className": "Folder",
+          "Maps": {
+            "$className": "Folder"
+          },
+          "CharacterModels": {
+            "$className": "Folder"
+          },
+          "Abilities": {
+            "$path": "src/content/abilities"
+          }
+        }
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    }
+  }
+}
